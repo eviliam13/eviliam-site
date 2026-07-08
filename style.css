@@ -108,7 +108,7 @@ html {
     height:100%;
     margin:auto;
 
-    padding-left:90px;
+    padding-left:60px;
 }
 
 .hero h1{
@@ -122,18 +122,15 @@ html {
 
     color:#fff;
 
-    margin-bottom:20px;
+    margin-bottom:36px;
 
 }
 
-.hero-brand{
-
-    font-size:26px;
-    font-weight:500;
-    color:rgba(255,255,255,.75);
-
-    margin-bottom:18px;
-
+.hero-brand {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .hero-text{
@@ -145,7 +142,7 @@ html {
 
     max-width:700px;
 
-    margin-bottom:45px;
+    margin-bottom:56px;
 
 }
 

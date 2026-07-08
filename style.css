@@ -71,7 +71,7 @@ html {
 
 .hero-menu {
   display: flex;
-  gap: 45px;
+  gap: 150px;
 }
 
 .hero-menu a {
@@ -108,42 +108,40 @@ html {
     height:100%;
     margin:auto;
 
-    padding-left:60px;
-}
-
-.hero h1{
-
-    font-family:"Inter",sans-serif;
-    font-size:98px;
-    font-weight:900;
-
-    line-height:.82;
-    letter-spacing:-4px;
-
-    color:#fff;
-
-    margin-bottom:36px;
-
+    padding-left:25px;
 }
 
 .hero-brand {
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 400;
+    opacity: 0.50;
+
+    margin-bottom: 80px;
 }
 
-.hero-text{
 
-    font-size:26px;
-    line-height:1.5;
+.hero h1 {
+    font-size: 98px;
+    font-weight: 900;
 
-    color:rgba(255,255,255,.82);
+    line-height: .92;
+    letter-spacing: -4px;
 
-    max-width:700px;
+    color:#fff;
 
-    margin-bottom:56px;
+    margin-bottom: 45px;
+}
 
+
+.hero-text {
+    font-size: 26px;
+    line-height: 1.55;
+
+    color: rgba(255,255,255,.82);
+
+    max-width: 700px;
+
+    margin-bottom: 65px;
 }
 
 .hero-btn{
